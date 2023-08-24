@@ -58,7 +58,7 @@ You can read more about the vulnerability at the [Portwigger Website](https://po
 As Example on the vulnerability, we will solve this Lab: [Unprotected admin functionality](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality)
 
 <p align="center">
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5q8LF-tEDDk5tryh5jiI-w-zDLzJzgcgN1v5vqlarTAKh5jiwctaLl7quBCvbRAEOzsDNhuk9_ytOIBtGr1ABKL6YPKbhusNVLwObYAT6v6jMpFy93vPzR38I-D8iEOE3jXs6q2YzjFLk7a2ObSdRMrGLdUqKU1z57UX55EJHYNAve8Ftu1Oiz9uDyBY/s1382/1.PNG" alt="AcountPhoto" height="300" >
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5q8LF-tEDDk5tryh5jiI-w-zDLzJzgcgN1v5vqlarTAKh5jiwctaLl7quBCvbRAEOzsDNhuk9_ytOIBtGr1ABKL6YPKbhusNVLwObYAT6v6jMpFy93vPzR38I-D8iEOE3jXs6q2YzjFLk7a2ObSdRMrGLdUqKU1z57UX55EJHYNAve8Ftu1Oiz9uDyBY/s1382/1.PNG" alt="" height="300" >
 </p>
 
 To solve this lab, you must delete a user named "carlos"
@@ -69,14 +69,22 @@ In this case, we go to ``/robots.txt`` file. in order to see the pages that are 
 
 
 <img =2>
+ <p align="center">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEC4MNA3rqBjmd8FIgk57bowXFjq0IKN0RSnJt3Ce-Nx81pY3NPbljalZPCOzyW0N7yOH_Yx5imwj_OP6bEEb1TaeuxRHaJdzAIgLr8m-YPULmvgZWG4joCV0f6sLJT9ziwOgseWDiCy2KEqfn1C59le2U7FxD-uKq0SqVqLnuZmmQX4LGzzJIEoCZOAc/s1302/2.PNG" alt="" height="300" >
+</p>
 
 Great! We have found the admin panel at: ``/administrator-panel`` . Let's go through it by adding it right after the domain .
 <img 3>
-
+ <p align="center">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6Fob-MzuUc8m7_HpbjPdKu0BW9ZTBZYBKYn6bY9F_5rAsFLs8EXvyHr-Vc7Js07ZkdAEMC9ZkfJbRVmJCYaRQvmKs9IRb4tahUrk1ggzgjwzAbDobYCp6cdExG35IIt78Hz9lvBxsliM23sXXt3mRnXXixAUsMp3ncK434yY7sC_xj7cwWSORngd7peA/s1431/3.PNG" alt="" height="300" >
+</p>
 
 Great, we can now delete the required user.
  
  <img 4>
+ <p align="center">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa0sWDqDHwj1jvhwlu6AMzVYFRK904lMaJEGYthGZ7xRevJhCYwLTO2ZfgjPVysj0cLjyqd4mE7VPvqLdhXeRvRPilw6Vyqw37W4anG3uhX4hPLJjali1jDGhdha717UjAzSUrO6UBqJaKHlYuiKglIkXRAY4a7I6gc8zarS1s6D3AYiRL5EuUYk9U8w/s1670/4.PNG" alt="" height="300" >
+</p>
  
 The challenge was successfully solved, and this is a very simple example of the Broken Access Control vulnerability. Solve more labs on the [Portwigger Website](https://portswigger.net/web-security/all-labs#access-control-vulnerabilities)
 
