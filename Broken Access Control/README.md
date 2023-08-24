@@ -48,3 +48,18 @@ Broken Access Control is a critical security vulnerability that occurs when an a
 14. **Insecure Access Control Defaults**:
     - **Example**: Default settings provide broader access than necessary, and administrators fail to customize them.
 
+<br/>
+
+> **Note**
+You can read more about the vulnerability at the [Portwigger Website](https://portswigger.net/web-security/access-control#:~:text=Broken%20access%20control%20vulnerabilities%20exist,to%20be%20able%20to%20access.)
+
+
+
+
+
+
+
+
+
+
+
