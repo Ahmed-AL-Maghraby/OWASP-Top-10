@@ -67,25 +67,30 @@ In this case, we go to ``/robots.txt`` file. in order to see the pages that are 
 > **Note**
  It is a plain text file in which some simple code is placed to prevent crawling of certain pages that we do not want to appear in search engines. Thus, reducing the amount of data or pages to be tracked by search engine spiders, and consequently, the site is quickly indexed on search engines. <br/> You can access the /robots.txt file by adding it directly after the link
 
+<br/>
 
-<img =2>
  <p align="center">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEC4MNA3rqBjmd8FIgk57bowXFjq0IKN0RSnJt3Ce-Nx81pY3NPbljalZPCOzyW0N7yOH_Yx5imwj_OP6bEEb1TaeuxRHaJdzAIgLr8m-YPULmvgZWG4joCV0f6sLJT9ziwOgseWDiCy2KEqfn1C59le2U7FxD-uKq0SqVqLnuZmmQX4LGzzJIEoCZOAc/s1302/2.PNG" alt="" height="300" >
 </p>
 
-Great! We have found the admin panel at: ``/administrator-panel`` . Let's go through it by adding it right after the domain .
-<img 3>
++ Great! We have found the admin panel at: ``/administrator-panel`` . Let's go through it by adding it right after the domain .
+
+<br/>
+
  <p align="center">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6Fob-MzuUc8m7_HpbjPdKu0BW9ZTBZYBKYn6bY9F_5rAsFLs8EXvyHr-Vc7Js07ZkdAEMC9ZkfJbRVmJCYaRQvmKs9IRb4tahUrk1ggzgjwzAbDobYCp6cdExG35IIt78Hz9lvBxsliM23sXXt3mRnXXixAUsMp3ncK434yY7sC_xj7cwWSORngd7peA/s1431/3.PNG" alt="" height="300" >
 </p>
 
-Great, we can now delete the required user.
++ Great, we can now delete the required user.
+
+ <br/>
  
- <img 4>
  <p align="center">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa0sWDqDHwj1jvhwlu6AMzVYFRK904lMaJEGYthGZ7xRevJhCYwLTO2ZfgjPVysj0cLjyqd4mE7VPvqLdhXeRvRPilw6Vyqw37W4anG3uhX4hPLJjali1jDGhdha717UjAzSUrO6UBqJaKHlYuiKglIkXRAY4a7I6gc8zarS1s6D3AYiRL5EuUYk9U8w/s1670/4.PNG" alt="" height="300" >
 </p>
- 
+
+ <br/>
+
 The challenge was successfully solved, and this is a very simple example of the Broken Access Control vulnerability. Solve more labs on the [Portwigger Website](https://portswigger.net/web-security/all-labs#access-control-vulnerabilities)
 
 
