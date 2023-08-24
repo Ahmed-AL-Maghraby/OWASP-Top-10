@@ -57,7 +57,9 @@ You can read more about the vulnerability at the [Portwigger Website](https://po
 
 As Example on the vulnerability, we will solve this Lab: [Unprotected admin functionality](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality)
 
-<img =1 >
+<p align="center">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5q8LF-tEDDk5tryh5jiI-w-zDLzJzgcgN1v5vqlarTAKh5jiwctaLl7quBCvbRAEOzsDNhuk9_ytOIBtGr1ABKL6YPKbhusNVLwObYAT6v6jMpFy93vPzR38I-D8iEOE3jXs6q2YzjFLk7a2ObSdRMrGLdUqKU1z57UX55EJHYNAve8Ftu1Oiz9uDyBY/s1382/1.PNG" alt="AcountPhoto" height="300" >
+</p>
 
 To solve this lab, you must delete a user named "carlos"
 After you click on "ACCESS THE LAB", we browse the site to try to get the admin panel, but we only find the home page and the account page that needs a username and password .
