@@ -53,6 +53,62 @@ Broken Access Control is a critical security vulnerability that occurs when an a
 > **Note**
 You can read more about the vulnerability at the [Portwigger Website](https://portswigger.net/web-security/access-control#:~:text=Broken%20access%20control%20vulnerabilities%20exist,to%20be%20able%20to%20access.)
 
+# Lab
+
+As Example on the vulnerability, we will solve this Lab: [Unprotected admin functionality](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality)
+
+<img =1 >
+
+To solve this lab, you must delete a user named "carlos"
+After you click on "ACCESS THE LAB", we browse the site to try to get the admin panel, but we only find the home page and the account page that needs a username and password .
+In this case, we go to ``/robots.txt`` file. in order to see the pages that are blocked from search engines. We may find the admin panel on of it. <br>
+> **Note**
+ It is a plain text file in which some simple code is placed to prevent crawling of certain pages that we do not want to appear in search engines. Thus, reducing the amount of data or pages to be tracked by search engine spiders, and consequently, the site is quickly indexed on search engines. <br/> You can access the /robots.txt file by adding it directly after the link
+
+
+<img =2>
+
+Great! We have found the admin panel at: ``/administrator-panel`` . Let's go through it by adding it right after the domain .
+<img 3>
+
+
+Great, we can now delete the required user.
+ 
+ <img 4>
+ 
+The challenge was successfully solved, and this is a very simple example of the Broken Access Control vulnerability. Solve more labs on the [Portwigger Website](https://portswigger.net/web-security/all-labs#access-control-vulnerabilities)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
